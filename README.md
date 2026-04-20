@@ -17,22 +17,48 @@ Kāla provides a unified control layer that ensures:
 
 ---
 
+## Role Across the System
+
+Kāla operates as a unified intelligence control layer across multiple stages of the system.
+
+It is not limited to a single position in the pipeline.
+
+Kāla is applied wherever intelligence needs to be:
+- interpreted  
+- contextualized  
+- routed  
+- coordinated  
+
+This includes:
+
+- live signal interpretation (when required)  
+- session-level and historical analysis  
+- memory-aware context integration  
+- cross-system coordination between Kinetru, MemMapRu, and runtime layers  
+
+Rather than existing as multiple independent components, Kāla remains a single system that provides consistent decision logic across all layers.
+
+This ensures:
+- unified interpretation logic  
+- consistent system behavior  
+- separation between intelligence generation and application  
+
+---
+
 ## System Position
 
-Research Systems
-↓
-Kāla
-↓
-
-↓                       ↓
-Kinetru              MemMapRu
-
+Research Systems  
+        ↓  
+       Kāla  
+      /    \  
+     ↓      ↓  
+Kinetru   MemMapRu  
 
 ---
 
 ## Orchestration Flow
 
-![Kāla Flow](./assets/kala-flow.png)
+![Kāla Flow](./assets/kala-engine-architecture.png)
 
 ---
 
